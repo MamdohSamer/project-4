@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(237, 242, 248);
+    display: flex;
+    
+    justify-content: center;
+
+}
+.main{
+    height: 250px;
+    width: 800px;
+    margin-top:15%;
+}
+.talk{
+    width: 400px;
+    position: absolute;
+    background-color: white;
+    height: 250px;
+    top: 31.5%;
+    left: 42.6%;
+    border-radius: 0 10px 10px 0;
+
+}
+.main .draw{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+.first{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(75, 86, 104);
+    width: 340px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.second{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: rgb(135, 140, 146);
+}
+.btn{
+    width:30px ;
+    height: 30px;
+    border: none;
+    position: absolute;
+    border-radius: 50%;   
+    bottom: 15%;
+    right: 8%;
+    background-color: rgb(237, 241, 250);
+}
+.girl{
+    width: 40px;
+    margin: 20px 0 0 30px;
+    border-radius: 50%;
+}
+.gg{
+    display: flex;
+}
+.namee{
+    color: rgb(71, 75, 86);
+    margin: 20px;
+    font-weight: bold;
+}
+.date{
+    position: absolute;
+    bottom: 14%;
+    left: 22.5%;
+    font-size: 10px;
+    color: rgb(161, 167, 179);
+}
+.triangle {
+    position: relative;
+    background: #2c3e50;
+    height: 50vh;
+}
+
+.triangle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: #2c3e50 transparent transparent transparent;
+    left: 50%;
+    transform: translateX(2190%) translateY(333%);
+    z-index: 9999;
+}
+.final{
+    border-radius: 10px;
+    position: absolute;
+    top: 48.5%;
+    left: 62.5%;
+    padding: 13px 60px 13px 60px;
+    background-color: rgb(73, 85, 107);
+    z-index: 8;
+    color: rgb(158, 172, 193);
+}
